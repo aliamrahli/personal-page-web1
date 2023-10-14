@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionaire</title>
+</head>
+<body>
+    <form action="mailto:aamrahli12020@ada.edu.az">
+        <label for="fname">FirstName:</label>
+        <input type="text"  id="fname" placeholder="Enter first name" > <br>
+
+        <label for="lname">LastName:</label>
+        <input type="text" name="gender" id="lname" placeholder="Enter last name"> <br><br><br>
+
+        <fieldset>
+            <legend>Select your gender</legend>
+            <input type="radio" name="gender" id="gender_male" value="male"><label for="gender_male">Male</label> <br>
+            <input type="radio" name="gender" id="gender_female" value="female"><label for="gender_female">Female</label> <br>
+            <input type="radio" name="gender" id="gender_other" value="other"><label for="gender_other">Other</label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>which programming languages you know?</legend>
+            <label for="lang_java">  <input type="checkbox" name="lang" id="lang_java" value="JAVA">JAVA</label>
+            <input type="checkbox" name="lang" id="lang_python" value="PYTHON"><label for="lang_python">PYTHON</label>
+            <input type="checkbox" name="lang" id="lang_js" value="JS"><label for="lang_js">JS</label>
+        </fieldset>
+        <input type="submit" value="SUBSEND">
+    </form>
+</body>
+</html>
