@@ -1,0 +1,118 @@
+body {
+    background-color: #111215;
+    width: 90%;
+    margin: 10px auto;
+    font-family: 'Poppins', sans-serif;
+    color:#f2f7fc;
+}
+
+a{
+    color:#f2f7fc;
+}
+
+#profile_picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#profile_picture:hover {
+    width: 220px;
+    height: 220px;
+}
+
+hr {
+    width: 1000px;
+    border-width: 2px;
+    margin: 40px auto;
+    border-color:brown;
+    border-style: solid;
+}
+
+h4.inline-h4{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.schedule, .schedule th,.schedule td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.schedule {
+    background-color: antiquewhite;
+    width: 500px;
+    height: 200px;
+    color: darkslategrey;
+}
+
+.schedule th {
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+.schedule td {
+    padding: 15px;
+}
+
+.schedule tr:hover {
+    background-color: crimson;
+    color: black;
+}
+
+.uni_name{
+    font-weight: 600;
+    font-size: larger;
+}
+
+.awards {
+    margin-left: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+/* ol {
+    background: #ff9999;
+    padding: 10px;
+    width: 200px;
+  }
+
+ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  } */
+
+  input {
+    padding: 12px 20px;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    border: 1px solid red;
+  }
+
+  input[type=email]{
+    margin-left: 60px;
+  }
+
+  #subject {
+    margin-left: 45px;
+  }
+
+textarea {
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+}
+
+textarea:focus {
+    background-color: aquamarine;
+}
+
+input:focus {
+    background-color: aquamarine;
+}
+
+input[type=submit]:hover {
+    background-color: aquamarine;
+}
