@@ -1,13 +1,59 @@
 body {
     background-color: #111215;
-    width: 90%;
-    margin: 10px auto;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     color:#f2f7fc;
 }
 
+
+div {
+    width: 90%;
+    margin: 10px auto;
+}
+
+
+.active {
+    background-color:darkgreen;
+}
+
+nav li:hover:not(.active) {
+    background-color: darkkhaki;
+}
+
+nav {
+    /* width: 95%; */
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    background-color: #111215;
+    height: 40px;
+}
+
+nav ul {
+    position: sticky;
+    background-color: chocolate;
+    /* padding:auto; */
+    margin-top: 0;
+}
+
+
+nav li {
+    list-style-type: none;
+    padding-top: 5px;
+    margin: 0 0 0 20px;
+    display: inline-block;
+    width: 150px;
+    font-size: 17px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
 a{
     color:#f2f7fc;
+    display: inline-block;
 }
 
 #profile_picture {

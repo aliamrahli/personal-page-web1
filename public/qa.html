@@ -10,61 +10,76 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <form action="mailto:aamrahli12020@ada.edu.az">
-        <label for="fname">FirstName:</label>
-        <input type="text"  id="fname" placeholder="Enter first name" > <br><br>
-
-        <label for="lname">LastName:</label>
-        <input type="text" name="gender" id="lname" placeholder="Enter last name"> <br><br><br>
-
-        <fieldset>
-            <legend>Select your gender</legend>
-            <input type="radio" name="gender" id="gender_male" value="male"><label for="gender_male">Male</label> <br>
-            <input type="radio" name="gender" id="gender_female" value="female"><label for="gender_female">Female</label> <br>
-            <input type="radio" name="gender" id="gender_other" value="other"><label for="gender_other">Other</label> <br>
-        </fieldset> <br>
-        <fieldset>
-            <legend>Date of birth: </legend>
-            <label for="birthday"><input type="date" id="birthday" name="birthday"></label> 
-        </fieldset> <br>
-        <fieldset>
-            <legend>Enter your email:</legend>
-            <label for="email"><input type="email" id="email" name="email" placeholder="user@gmail.com"></label>
-  
-        </fieldset><br>
-        <fieldset>
-            <legend>Select your favorite color: </legend>
-            <label for="favcolor"><input type="color" id="favcolor" name="favcolor" value="#0000ff"><br></label>       
-        </fieldset><br>
-        <fieldset>
-            <label for="university"> In which university do you study? <br><br>
-                <select name="university" id="university">
-                    <option value="ADA">ADA University</option>
-                    <option value="AMU">Azerbaijan Medical University</option>
-                    <option value="ASOIU">Azerbaijan State Oil and Industry University"</option>
-                    <option value="BHOS">Baku Higher Oil School</option>
-                    <option value="BSU">Baku State University</option>
-                    <option value="GSU">Ganja State University</option>
-                    <option value="LSU">Lankaran State University</option>
-                    <option value="Other">Other</option>
-                </select>
-            </label><br><br>
-            <label for="quantity">From 1 to 5 how would you rate the quality of education?</label><br>
-            <input type="number" id="quantity" name="quantity" min="1" max="5">
-        </fieldset><br>
-        
-        <fieldset>
-            <legend>Which programming languages you know?</legend>
-            <label for="lang_java">  <input type="checkbox" name="lang" id="lang_java" value="JAVA">JAVA</label>
-            <input type="checkbox" name="lang" id="lang_python" value="PYTHON"><label for="lang_python">PYTHON</label>
-            <input type="checkbox" name="lang" id="lang_js" value="JS"><label for="lang_js">JS</label>
-        </fieldset><br>
-        
-        <label for="time">Enter your preferred Contact Time:</label> <br><br>
-        <input type="time" id="time" name="time"><br><br>
-
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
-    </form>
+    <nav>
+        <ul>
+          <li style="width: 70px;"><a href="../index.html">HOME</a></li>
+          <li><a href="education.html">EDUCATION</a></li>
+          <li class="active"><a href="qa.html" >QUESTIONNAIRE</a></li>
+          <li>DIGITAL CARD</li>
+          <li>GITHUB ACCOUNT</li>
+          <li>GITHUB PAGE</li>
+          <li style="width: 70px;">ABOUT</li>
+          <li><a href="contactMe.html">CONTACT ME</a></li>
+        </ul>
+      </nav>
+      <div>
+        <form action="mailto:aamrahli12020@ada.edu.az">
+            <label for="fname">FirstName:</label>
+            <input type="text"  id="fname" placeholder="Enter first name" > <br><br>
+    
+            <label for="lname">LastName:</label>
+            <input type="text" name="gender" id="lname" placeholder="Enter last name"> <br><br><br>
+    
+            <fieldset>
+                <legend>Select your gender</legend>
+                <input type="radio" name="gender" id="gender_male" value="male"><label for="gender_male">Male</label> <br>
+                <input type="radio" name="gender" id="gender_female" value="female"><label for="gender_female">Female</label> <br>
+                <input type="radio" name="gender" id="gender_other" value="other"><label for="gender_other">Other</label> <br>
+            </fieldset> <br>
+            <fieldset>
+                <legend>Date of birth: </legend>
+                <label for="birthday"><input type="date" id="birthday" name="birthday"></label> 
+            </fieldset> <br>
+            <fieldset>
+                <legend>Enter your email:</legend>
+                <label for="email"><input type="email" id="email" name="email" placeholder="user@gmail.com"></label>
+      
+            </fieldset><br>
+            <fieldset>
+                <legend>Select your favorite color: </legend>
+                <label for="favcolor"><input type="color" id="favcolor" name="favcolor" value="#0000ff"><br></label>       
+            </fieldset><br>
+            <fieldset>
+                <label for="university"> In which university do you study? <br><br>
+                    <select name="university" id="university">
+                        <option value="ADA">ADA University</option>
+                        <option value="AMU">Azerbaijan Medical University</option>
+                        <option value="ASOIU">Azerbaijan State Oil and Industry University"</option>
+                        <option value="BHOS">Baku Higher Oil School</option>
+                        <option value="BSU">Baku State University</option>
+                        <option value="GSU">Ganja State University</option>
+                        <option value="LSU">Lankaran State University</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </label><br><br>
+                <label for="quantity">From 1 to 5 how would you rate the quality of education?</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+            </fieldset><br>
+            
+            <fieldset>
+                <legend>Which programming languages you know?</legend>
+                <label for="lang_java">  <input type="checkbox" name="lang" id="lang_java" value="JAVA">JAVA</label>
+                <input type="checkbox" name="lang" id="lang_python" value="PYTHON"><label for="lang_python">PYTHON</label>
+                <input type="checkbox" name="lang" id="lang_js" value="JS"><label for="lang_js">JS</label>
+            </fieldset><br>
+            
+            <label for="time">Enter your preferred Contact Time:</label> <br><br>
+            <input type="time" id="time" name="time"><br><br>
+    
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+      </div>
+    
 </body>
 </html>
